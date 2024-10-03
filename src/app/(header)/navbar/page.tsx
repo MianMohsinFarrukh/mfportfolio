@@ -1,6 +1,4 @@
 import About from "@/app/(mypages)/about/page";
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import Services from "@/app/(mypages)/services/page"
 import Contact from "@/app/(mypages)/contact/page";
