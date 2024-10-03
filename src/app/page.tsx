@@ -2,8 +2,9 @@ import Image from "next/image";
 import React from "react";
 import Navbar from "./(header)/navbar/page";
 import Link from "next/link";
-import Hero from "./(hero)/page";
-import Footer from "./(footer)/page";
+import Hero from "./(hero)/hero/page";
+import Footer from "./(footer)/footer/page";
+
 
 export default function Home() {
   return (
