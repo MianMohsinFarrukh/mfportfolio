@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./(header)/navbar/page";
 import Footer from "./(footer)/footer/page";
-// import Hero from "./(hero)/hero/page";
+import Hero from "./(hero)/hero/page";
 
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
     <div className="header">
       <div className="navbar">
         <Navbar />
-        {/* <Hero/> */}
+        <Hero/>
         <Footer />
 
       </div>
