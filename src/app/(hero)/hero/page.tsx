@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 export default function Hero() {
     return (
         <div>
@@ -15,7 +16,8 @@ export default function Hero() {
                         </div>
                     </div>
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                        <img className="object-cover object-center rounded" alt="hero" src="images/j3.jpg"></img>
+                        <Image width={400} height={400} src="/images/j3.jpg" alt='image'></Image>
+                        {/* <Image width={500}  height={}className="object-cover object-center rounded" alt="hero" src="images/j3.jpg"></Image> */}
                     </div>
                 </div>
             </section></div>
@@ -224,7 +226,7 @@ export default function Hero() {
                                 </div>
                             </div>
                             <div className="p-2 w-full">
-                                <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+                                <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
                             </div>
                             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                                 <a className="text-indigo-500">example@email.com</a>
