@@ -1,7 +1,4 @@
-import About from "@/app/(mypages)/about/page";
 import React from "react";
-import Services from "@/app/(mypages)/services/page"
-import Contact from "@/app/(mypages)/contact/page";
 import Link from "next/link";
 
 export default function Navbar() {
