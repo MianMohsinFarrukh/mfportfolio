@@ -2,7 +2,7 @@ import About from "@/app/(mypages)/about/page";
 import React from "react";
 import Services from "@/app/(mypages)/services/page"
 import Contact from "@/app/(mypages)/contact/page";
-
+import Link from "next/link";
 
 export default function Navbar() {
     return (
@@ -15,7 +15,7 @@ export default function Navbar() {
                     <span className="ml-3 text-xl">MY PORTFOLIO</span>
                 </a>
                 <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-
+                    <Link className="mr-5 hover:text-gray-900" href="/about" >Look</Link>
                     <a className="mr-5 hover:text-gray-900" href="/">Home</a>
                     <a className="mr-5 hover:text-gray-900" href="/about">About</a>
                     <a className="mr-5 hover:text-gray-900" href="/services">Services</a>
