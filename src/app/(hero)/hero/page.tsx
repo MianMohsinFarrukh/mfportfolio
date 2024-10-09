@@ -16,7 +16,7 @@ export default function Hero() {
                         </div>
                     </div>
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                        <Image width={400} height={400} src="/images/j3.jpg" alt='image'></Image>
+                        <Image className='ml-12' width={400} height={400} src="/images/j3.jpg" alt='image'></Image>
                         {/* <Image width={500}  height={}className="object-cover object-center rounded" alt="hero" src="images/j3.jpg"></Image> */}
                     </div>
                 </div>
