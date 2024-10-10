@@ -16,13 +16,6 @@ export default function Navbar() {
                     <Link className="mr-5 hover:text-gray-100" href="/about">About</Link>
                     <Link className="mr-5 hover:text-gray-100" href="/services">Services</Link>
                     <Link className="mr-5 hover:text-gray-100" href="/contact">Contact</Link>
-
-
-
-                    {/* <a className="mr-5 hover:text-gray-900" href="/">Home</a>
-                    <a className="mr-5 hover:text-gray-900" href="/about">About</a>
-                    <a className="mr-5 hover:text-gray-900" href="/services">Services</a>
-                    <a className="mr-5 hover:text-gray-900" href="/contact">Contact</a> */}
                 </nav>
                 <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
