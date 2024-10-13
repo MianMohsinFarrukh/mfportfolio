@@ -2,6 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 export default function Hero() {
     return (
+
+        // Hero Section 1
+
         <div>
             <div><section className="text-gray-600 body-font">
                 <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -21,7 +24,8 @@ export default function Hero() {
                 </div>
             </section></div>
 
-            {/* section 2 */}
+            {/* Section 2 */}
+
             <section className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
