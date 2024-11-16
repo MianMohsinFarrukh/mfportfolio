@@ -26,6 +26,7 @@ export default function Navbar() {
                             <li><Link className="mr-5 hover:text-gray-100" href="/">Home</Link></li>
                             <li><Link className="mr-5 hover:text-gray-100" href="/about">About</Link></li>
                             <li><Link className="mr-5 hover:text-gray-100" href="/services">Services</Link></li>
+                            <li><Link className="mr-5 hover:text-gray-100" href="/contact">Project</Link></li>
                             <li><Link className="mr-5 hover:text-gray-100" href="/contact">Contact</Link></li>
                         </ul>
                     </nav>
