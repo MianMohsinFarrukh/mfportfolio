@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/f
 
 const SocialIcons: React.FC = () => {
   return (
-    <div className="flex space-x-4 mt-1">
+    <div className="flex space-x-4 mt-1 sm:flex-row justify-center">
       <SocialIcon href="https://www.facebook.com" icon={<FaFacebookF size={16} />} />
       <SocialIcon href="https://www.twitter.com" icon={<FaTwitter size={16} />} />
       <SocialIcon href="https://www.instagram.com" icon={<FaInstagram size={16} />} />

@@ -6,7 +6,7 @@ export default function Footer() {
 
     //  footer section
 
-    <div>
+    <div className='bg-indigo-50 bg-in'>
       <footer className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
@@ -94,7 +94,7 @@ export default function Footer() {
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row justify-between">
             <div>
               <p className="text-black text-sm text-center sm:text-left">© 2024 MY PORTFOLIO —
-                <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-black ml-1" target="_blank">@gmail.com</a>
+                <a href="https://mail.google.com/" rel="noopener noreferrer" className="text-black ml-1" target="_blank">@gmail.com</a>
               </p>
             </div>
             <div className=''>
