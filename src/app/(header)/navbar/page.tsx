@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 import { FaGithub } from "react-icons/fa";
+import Navbars from "@/app/(header)/navbar/navigationbar/page";
 
 
 export default function Navbar() {
@@ -25,15 +26,26 @@ export default function Navbar() {
 
                     {/* NAVBAR */}
 
-                    <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+
+
+                    <Navbars />
+
+
+
+
+
+
+
+
+                    {/* <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                         <ul className="flex">
-                            <li><Link className="mr-5 hover:text-gray-100" href="/">Home</Link></li>
+                            <li><Link className="mr-5 hover:text-gray-100 " href="/">Home</Link></li>
                             <li><Link className="mr-5 hover:text-gray-100" href="/about">About</Link></li>
                             <li><Link className="mr-5 hover:text-gray-100" href="/services">Services</Link></li>
                             <li><Link className="mr-5 hover:text-gray-100" href="/project">Project</Link></li>
                             <li><Link className="mr-5 hover:text-gray-100" href="/contact">Contact</Link></li>
                         </ul>
-                    </nav>
+                    </nav> */}
 
 
                     {/* NAVBAR BUTTON RIGHT SIDE */}
