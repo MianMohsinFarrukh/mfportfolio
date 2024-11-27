@@ -36,7 +36,6 @@ export default function Navbar() {
 
 
 
-
                     {/* <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                         <ul className="flex">
                             <li><Link className="mr-5 hover:text-gray-100 " href="/">Home</Link></li>
