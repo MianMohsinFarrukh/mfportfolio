@@ -1,12 +1,17 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function About() {
     return (
         <div><section className="text-gray-600 body-font">
+           <div className="flex flex-col text-center w-full mt-14 mb-2">
+          <h1 className="sm:text-5xl text-2xl font-medium title-font mb-4 text-indigo-500">ABOUT US</h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+        </div>
         <div className="container px-5 py-24 mx-auto flex flex-col">
           <div className="lg:w-4/6 mx-auto">
             <div className="rounded-lg h-64 overflow-hidden">
-              <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500"></img>
+              {/* <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500"></img> */}
+              <Image className="object-cover object-center h-full w-full" width={400} height={400} src="/images/j3.jpg" alt='image'></Image>
             </div>
             <div className="flex flex-col sm:flex-row mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
