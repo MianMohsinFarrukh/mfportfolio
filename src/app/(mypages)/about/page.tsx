@@ -5,7 +5,7 @@ export default function About() {
         <div><section className="text-gray-600 body-font">
            <div className="flex flex-col text-center w-full mt-14 mb-2">
           <h1 className="sm:text-5xl text-2xl font-medium title-font mb-4 text-indigo-500">ABOUT US</h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bage tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jeanbing selfiess heirloom.</p>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bage tumblr hexagon brooklynes asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jeanbing selfiess heirloom.</p>
         </div>
         <div className="container px-5 py-24 mx-auto flex flex-col">
           <div className="lg:w-4/6 mx-auto">
