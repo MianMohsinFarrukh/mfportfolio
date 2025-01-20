@@ -24,7 +24,7 @@ export default function About() {
                 <div className="flex flex-col items-center text-center justify-center">
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">Phoebe Caulfield</h2>
                   <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
-                  <p className="text-base">Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland.</p>
+                  <p className="text-base">Raclette knausgaard hella meges normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland.</p>
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
